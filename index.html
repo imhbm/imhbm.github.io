@@ -6,22 +6,38 @@
     <title>Himandri Mallick</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f6f8;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f7f7;
             color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 40px;
+            margin: 0;
+            padding: 0;
         }
-        h1, h2, h3 {
-            color: #2c3e50;
+        header {
+            background-color: #007acc;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
         }
-        p, li {
-            font-size: 1em;
-            line-height: 1.6;
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+        }
+        .section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .section h2 {
+            border-bottom: 2px solid #007acc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
         }
         ul {
-            list-style-type: none;
+            list-style: none;
             padding: 0;
         }
         li {
@@ -34,56 +50,73 @@
         a:hover {
             text-decoration: underline;
         }
-        .section {
-            margin-bottom: 30px;
+        .tech-stack span {
+            background-color: #007acc;
+            color: white;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 20px;
+            display: inline-block;
+            font-size: 0.9em;
         }
-        img {
-            max-width: 100%;
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #eee;
+            font-size: 0.9em;
         }
     </style>
 </head>
 <body>
-    <h1>👋 Hi there, I’m Himandri Mallick!</h1>
-    <p>Welcome to my website! I’m a passionate software developer and AI enthusiast who loves building, learning, and sharing knowledge.</p>
+
+    <header>
+        <h1>👋 Hi, I’m Himandri Mallick</h1>
+        <p>Software Developer | AI Enthusiast | RAG Explorer</p>
+    </header>
 
     <div class="section">
-        <h2>💼 About Me</h2>
-        <ul>
-            <li>🔭 Currently working on: <strong>RAG-based Applications</strong></li>
-            <li>🌱 Currently learning: <strong>LLM, Gen AI, RAG, Prompt Engineering</strong></li>
-            <li>👯 Open to collaborate on: <strong>AI projects, backend development, open-source contributions</strong></li>
-            <li>💬 Ask me about: <strong>Java, Spring Boot, LLMs, Generative AI, Docker, Kubernetes</strong></li>
-            <li>📫 How to reach me: <a href="mailto:ihbm.dev@gmail.com">ihbm.dev@gmail.com</a> | <a href="https://www.linkedin.com/in/himandrimallick/" target="_blank">LinkedIn</a></li>
-            <li>⚡ Fun fact: <strong>I’m passionate about decoding complex tech into simple, practical solutions!</strong></li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>🛠️ Tech Stack</h2>
+        <h2>About Me</h2>
         <p>
-            💻 Languages: Java, Python, JavaScript, SQL<br>
-            🛠️ Frameworks: Spring Boot, React, Node.js<br>
-            🤖 AI & ML: LLM, Generative AI, RAG, LangChain<br>
-            ☁️ Cloud & DevOps: Docker, Kubernetes, Azure, AWS<br>
-            📦 Tools: Git, GitHub, Maven, Gradle, VS Code, IntelliJ
+            I’m a passionate software developer and AI enthusiast who loves building, learning, and sharing knowledge.
+            Currently working on <strong>RAG-based Applications</strong>, exploring <strong>LLMs, Generative AI, Prompt Engineering</strong>,
+            and collaborating on <strong>AI projects, backend development, and open-source contributions</strong>.
         </p>
+        <p>💬 Ask me about: Java, Spring Boot, LLMs, Generative AI, Docker, Kubernetes</p>
     </div>
 
     <div class="section">
-        <h2>📈 GitHub Stats</h2>
-        <img src="https://github-readme-stats.vercel.app/api?username=imhbm&theme=dark&show_icons=true" alt="Himandri's GitHub Stats">
+        <h2>Tech Stack</h2>
+        <div class="tech-stack">
+            <span>Java</span>
+            <span>Python</span>
+            <span>JavaScript</span>
+            <span>SQL</span>
+            <span>Spring Boot</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>LLM</span>
+            <span>Generative AI</span>
+            <span>RAG</span>
+            <span>LangChain</span>
+            <span>Docker</span>
+            <span>Kubernetes</span>
+            <span>Azure</span>
+            <span>AWS</span>
+            <span>Git</span>
+            <span>GitHub</span>
+        </div>
     </div>
 
     <div class="section">
-        <h2>🌟 Featured Projects</h2>
+        <h2>Featured Projects</h2>
         <ul>
-            <li>🚀 <a href="https://github.com/imhbm/masterinprompting" target="_blank">Prompting</a> → A project to master prompt engineering techniques</li>
-            <li>🚀 <a href="https://github.com/imhbm/learnAgents" target="_blank">Build Your Agent</a> → Learn how to build AI agents with hands-on examples</li>
+            <li>🚀 <a href="https://github.com/imhbm/masterinprompting" target="_blank">Prompting</a> — Master prompt engineering techniques</li>
+            <li>🚀 <a href="https://github.com/imhbm/learnAgents" target="_blank">Build Your Agent</a> — Learn how to build AI agents with hands-on examples</li>
         </ul>
     </div>
 
     <div class="section">
-        <h2>📝 My Technical Blogs</h2>
+        <h2>Technical Blogs</h2>
         <ul>
             <li>🔗 <a href="https://learngenai.hashnode.dev/build-ai-agents" target="_blank">Build AI Agents</a></li>
             <li>🔗 <a href="https://learngenai.hashnode.dev/master-in-prompts-using-python" target="_blank">Master in Prompts Using Python</a></li>
@@ -92,11 +125,21 @@
     </div>
 
     <div class="section">
-        <h2>📫 Connect with Me</h2>
+        <h2>GitHub Stats</h2>
+        <img src="https://github-readme-stats.vercel.app/api?username=imhbm&theme=dark&show_icons=true" alt="GitHub Stats" style="max-width: 100%;">
+    </div>
+
+    <div class="section">
+        <h2>Connect with Me</h2>
         <ul>
-            <li><a href="https://www.linkedin.com/in/himandrimallick/" target="_blank">LinkedIn</a></li>
-            <li><a href="mailto:ihbm.dev@gmail.com">Email: ihbm.dev@gmail.com</a></li>
+            <li>💼 <a href="https://www.linkedin.com/in/himandrimallick/" target="_blank">LinkedIn</a></li>
+            <li>📧 <a href="mailto:ihbm.dev@gmail.com">ihbm.dev@gmail.com</a></li>
         </ul>
     </div>
+
+    <footer>
+        © 2025 Himandri Mallick — Thanks for visiting!
+    </footer>
+
 </body>
 </html>
